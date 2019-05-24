@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.developer.colorvalue.CardActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <com.google.developer.colorvalue.ui.ColorView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardView_height"
+            android:id="@+id/colorView"
+            app:show_text="false"
+            android:layout_marginBottom="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Light Blue"
+                style="?android:textAppearanceLarge"
+                android:id="@+id/card_name"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/color_text_size"
+                android:layout_marginTop="@dimen/color_text_margin_top"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="#43267q"
+                android:id="@+id/card_hex"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

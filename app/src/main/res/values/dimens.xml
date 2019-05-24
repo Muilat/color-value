@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="color_text_size">40sp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="cardView_height">260dp</dimen>
+    <dimen name="color_text_margin_top">30sp</dimen>
+</resources>
